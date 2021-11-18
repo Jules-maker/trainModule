@@ -42,4 +42,46 @@ table {
     border-spacing: 0;
 }
 
-/* main */
+/* Site */
+/* nav */
+/* section */
+/* footer */
+/* social */
+.social-icons {
+	margin-top: 20px;
+}
+.social-icons li {
+	float: left;
+	margin-right: 5px;
+}
+.social-icons a {
+	width: 46px;
+	height: 46px;
+	display: block;
+	background: url('../img/social-icons.png') no-repeat 0 0;
+	transition: all .3s;
+	border-radius: 50%;
+}
+.social-icons a.twitter {
+	background-position: -52px 0;
+}
+.social-icons a.dribble {
+	background-position: -104px 0;
+}
+.social-icons a.rss {
+	background-position: -156px 0;
+}
+.social-icons a.facebook:hover {
+	background-position: 0 -47px;
+}
+.social-icons a.twitter:hover {
+	background-position: -52px -47px;
+}
+.social-icons a.dribble:hover {
+	background-position: -104px -47px;
+}
+.social-icons a.rss:hover {
+	background-position: -156px -47px;
+}
+
+/* responsive */
